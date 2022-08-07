@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container py-4">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo@2x.png" class="me-2" width="64" height="38" alt="">
+        <div class="logo-info d-inline-block">
+          <h1 class="text-white fs-5 mb-0">Weather</h1>
+          <p class="mb-0">tagline goes here</p>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active rounded-pill" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link rounded-pill" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link rounded-pill" href="#">Live cameras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link rounded-pill" href="#">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link rounded-pill" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="bg-img">
+    <div class="container py-5">
+      <form class="position-relative my-3">
+        <input type="text" class="rounded-pill a" placeholder="find your location..." id="search">
+        <input type="button" value="Find" name="" id="find" class="position-absolute rounded-pill b">
+      </form>
+      <div class="row my-5 g-0">
+        <div class="col-md-4">
+          <div class="weather" id="todayTemp">
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="weather another bg-black">
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="weather another">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-black py-5">
+    <div class="container py-3">
+      <div class="row">
+        <div class="col-md-8">
+          <form class="position-relative" action="">
+            <input type="text" class="rounded-pill a" placeholder="enter your email to subscribe...">
+            <input type="button" value="Subscribe" name="" class="position-absolute rounded-pill b">
+          </form>
+          <p class="mt-4 ms-5">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+        <div class="col-md-4">
+          <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-google-plus-g"></i>
+            <i class="fab fa-pinterest-p"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

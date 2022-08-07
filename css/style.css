@@ -1,0 +1,93 @@
+body{
+    background-color: #1e202b;
+    color: #bfc1c8;
+}
+a{
+    text-decoration: none;
+}
+.logo-info{
+    vertical-align: middle;
+}
+.logo-info p{
+    font-size: 0.7142857143em;
+    color:#bfc1c8 ;
+}
+.nav-item{
+    margin-left: 10px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 5px 30px;
+}
+.nav-link{
+    color: #fff;
+    border: 2px solid transparent;
+}
+.nav-link:hover, .active{
+    color: #009ad8;
+    border: 2px solid #009ad8;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.bg-img{
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+}
+.a{
+    width: 100%;
+    background-color: #1e202b;
+    border: none;
+    outline: none;
+    padding: 15px ;
+    color: #fff;
+}
+.b{
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 5px 30px;
+    background-color: #009ad8;
+    border: none;
+    color: #fff;
+}
+.weather{
+    background-color: #323544;
+    height: 360px;
+}
+.weather-header{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.temp p{
+    font-size: 4rem;
+    color: #fff;
+}
+.desc{
+    color: #009ad8;
+    margin: 20px 0;
+}
+.bg-black{
+    background-color: #262936;
+}
+.icons{
+    text-align: center;
+}
+.icons i{
+    padding: 12px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1e202b;
+    color: #009ad8;
+    cursor: pointer;
+    transition: all ease-in 0.4s;
+}
+.icons i:hover{
+    color: #fff;
+    background-color: #009ad8;
+}
+@media (min-width: 1200px){
+.container{
+    width: 1170px;
+}
+}
